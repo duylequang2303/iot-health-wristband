@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment & Secrets
+.env
+backend/.env
+backend/serviceAccountKey.json
+
+# Firebase config with real keys
+web-app/js/firebase-config.js
+
+# Build artifacts
+.pio/
+firmware/.pio/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
